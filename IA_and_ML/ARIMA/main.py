@@ -9,12 +9,15 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('dados.csv')
 print(df)
+print(1)
 
 # Ordenando os dados por cnpj, num_nf e code_nf
 df.sort_values(by=['cnpj', 'num_nf', 'code_nf'], inplace=True)
+print(2)
 
 # Criando uma nova coluna 'code_nf_pred' para armazenar as previsões
 df['code_nf_pred'] = np.nan
+print(3)
 
 # Função para prever os próximos valores de code_nf para um cnpj específico
 
@@ -23,17 +26,20 @@ def prever_code_nf(cnpj):
     user_data = df[df['cnpj'] == cnpj]
     code_nfs = user_data['code_nf'].values
 
+    print(4)
     # Usando um modelo ARIMA simples para prever os próximos valores de code_nf
     modelo = sm.tsa.ARIMA(code_nfs, order=(1, 1, 1))
-    modelo_fit = modelo.fit(disp=False)
+    modelo_fit = modelo.fit()
     forecast = modelo_fit.forecast(steps=1)
     return forecast[0]
 
 
+print(5)
 cnpjs_unicos = df['cnpj'].unique()
 for cnpj in cnpjs_unicos:
     mask = df['cnpj'] == cnpj
     df.loc[mask, 'code_nf_pred'] = prever_code_nf(cnpj)
+print(6)
 
 plt.figure(figsize=(12, 6))
 plt.plot(df['num_nf'], df['code_nf'], label='code_nf real', marker='o')
