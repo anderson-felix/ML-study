@@ -1,0 +1,236 @@
+[
+  { "chave": "43220107857168000248550020000100601474679028", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679010", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679001", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474678994", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474678986", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474678978", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679036", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679044", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679052", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679060", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679079", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679087", "resposta": null },
+  { "chave": "43220107857168000248550020000100601474679095", "resposta": null },
+  {
+    "chave": "43220107857168000248550020000099751132535994",
+    "resposta": {
+      "nfeProc": {
+        "protNFe": {
+          "infProt": {
+            "nProt": 143220000325171,
+            "digVal": "BUoU25y7UEijQ09MFX/5gltPv+Y=",
+            "dhRecbto": "2022-01-03T11:05:00-03:00",
+            "chNFe": "43220107857168000248550020000099751132535994",
+            "xMotivo": "Autorizado o uso da NF-e",
+            "cStat": 100
+          }
+        },
+        "NFe": {
+          "infNFe": {
+            "infAdic": {
+              "infCpl": "ICMS RETIDO POR SUBST. TRIBUTARIA NOS TERMOS DO INCISO I, II E VII, ART. 131, SUBSECAO I, SECAO XVII, CAPITULO II, TITULO III, LIVRO III, DECRETO 37.699/97 DO RICMS/RS.ARMZ REF A NF 376075   INFORMACAO AO DESTINATARIO:   (ODMB/ODSB/ODCB)Destino BCR: 1345925.0  ICMSR: 158280.78  ICMS:   3230.22               Origem  BCR: 1345925.0  ICMSR: 158280.78  ICMS:   3230.22 ARMZ REF A NF 376075"
+            },
+            "infRespTec": {
+              "fone": 3133378844,
+              "CNPJ": 42766683000132,
+              "xContato": "Antonio Marcial Rocha",
+              "email": "antonio.rocha@attest.com.br"
+            },
+            "det": [
+              {
+                "nItem": 1,
+                "prod": {
+                  "cEAN": "SEM GTIN",
+                  "cProd": "OS10",
+                  "qCom": 250000,
+                  "cEANTrib": "SEM GTIN",
+                  "vUnTrib": 4.2957,
+                  "cBenef": "SEM CBENEF",
+                  "qTrib": 250000,
+                  "vProd": 1073925,
+                  "xProd": "ONU 1202,OLEO DIESEL 3 GE III - OLEO DIESEL A S10",
+                  "vUnCom": 4.2957,
+                  "comb": {
+                    "cProdANP": 420105001,
+                    "UFCons": "RS",
+                    "descANP": "OLEO DIESEL A S10"
+                  },
+                  "indTot": 1,
+                  "uTrib": "M3",
+                  "NCM": 27101921,
+                  "uCom": "LT",
+                  "CFOP": 5663,
+                  "CEST": "0600600"
+                },
+                "imposto": {
+                  "ICMS": {
+                    "ICMSST": {
+                      "pST": 0,
+                      "orig": 0,
+                      "CST": 60,
+                      "vBCSTDest": 1345925,
+                      "vBCSTRet": 1345925,
+                      "vICMSSubstituto": 161511,
+                      "vICMSSTRet": 161511,
+                      "vICMSSTDest": 161511
+                    }
+                  },
+                  "COFINS": { "COFINSNT": { "CST": "04" } },
+                  "PIS": { "PISNT": { "CST": "04" } }
+                }
+              }
+            ],
+            "total": {
+              "ICMSTot": {
+                "vICMSUFDest": 0,
+                "vICMSUFRemet": 0,
+                "vCOFINS": 0,
+                "vBCST": 0,
+                "vICMSDeson": 0,
+                "vFCPUFDest": 0,
+                "vProd": 1073925,
+                "vSeg": 0,
+                "vFCP": 0,
+                "vFCPST": 0,
+                "vNF": 1073925,
+                "vPIS": 0,
+                "vIPIDevol": 0,
+                "vBC": 0,
+                "vST": 0,
+                "vICMS": 0,
+                "vII": 0,
+                "vFCPSTRet": 0,
+                "vDesc": 0,
+                "vOutro": 0,
+                "vIPI": 0,
+                "vFrete": 0
+              }
+            },
+            "cobr": {
+              "fat": {
+                "vOrig": 1073925,
+                "nFat": "009975",
+                "vDesc": 0,
+                "vLiq": 1073925
+              }
+            },
+            "pag": { "detPag": [{ "vPag": 0, "tPag": 90 }] },
+            "Id": "NFe43220107857168000248550020000099751132535994",
+            "ide": {
+              "tpNF": 1,
+              "mod": 55,
+              "indPres": 9,
+              "tpImp": 1,
+              "nNF": 9975,
+              "cMunFG": 4315602,
+              "procEmi": 0,
+              "finNFe": 1,
+              "dhEmi": "2022-01-03T11:04:00-03:00",
+              "tpAmb": 1,
+              "indFinal": 0,
+              "dhSaiEnt": "2022-01-03T11:04:00-03:00",
+              "idDest": 1,
+              "tpEmis": 1,
+              "cDV": 4,
+              "cUF": 43,
+              "serie": 2,
+              "natOp": "REMESSA P/ARMAZENAGEM COMB/LUB",
+              "cNF": 13253599,
+              "verProc": 4,
+              "indIntermed": 0
+            },
+            "emit": {
+              "xNome": "SIM DISTRIBUIDORA DE COMBUSTIVEIS LTDA",
+              "CRT": 3,
+              "CNPJ": "07857168000248",
+              "enderEmit": {
+                "xCpl": "SL J",
+                "fone": "000000",
+                "UF": "RS",
+                "xPais": "BRASIL",
+                "xLgr": "AV ENG FRANCISCO MARTINS BASTOS",
+                "xMun": "RIO GRANDE",
+                "nro": 202,
+                "cMun": 4315602,
+                "xBairro": "VILA STA TEREZA",
+                "CEP": 96201650
+              },
+              "IE": 1000318998
+            },
+            "dest": {
+              "xNome": "REFINARIA DE PETROLEO RIOGRANDENSE SA",
+              "CNPJ": 94845674000130,
+              "enderDest": {
+                "fone": "000000",
+                "UF": "RS",
+                "xPais": "BRASIL",
+                "cPais": 1058,
+                "xLgr": "RUA ENG HEITOR AMARO BARCELOS",
+                "xMun": "RIO GRANDE",
+                "nro": 551,
+                "cMun": 4315602,
+                "xBairro": "CENTRO",
+                "CEP": 96202720
+              },
+              "IE": 1000010519,
+              "indIEDest": 1
+            },
+            "transp": {
+              "modFrete": 9,
+              "vol": [
+                {
+                  "marca": "S/M",
+                  "pesoL": 210500,
+                  "esp": "LTS",
+                  "qVol": 250000,
+                  "pesoB": 210500
+                }
+              ],
+              "transporta": { "xNome": "PROPRIO" }
+            }
+          }
+        },
+        "versao": 4
+      },
+      "procEventoNFe": [
+        {
+          "evento": {
+            "infEvento": {
+              "cOrgao": 91,
+              "dhEvento": "2022-01-03T11:20:53-03:00",
+              "nSeqEvento": 1,
+              "detEvento": {
+                "descEvento": "Confirmacao da Operacao",
+                "versao": 1
+              },
+              "CNPJ": 94845674000130,
+              "Id": "ID2102004322010785716800024855002000009975113253599401",
+              "chNFe": "43220107857168000248550020000099751132535994",
+              "tpAmb": 1,
+              "verEvento": 1,
+              "tpEvento": 210200
+            }
+          },
+          "retEvento": {
+            "infEvento": {
+              "nProt": 891220009200541,
+              "nSeqEvento": 1,
+              "verAplic": "AN_1.2.4",
+              "xMotivo": "Evento registrado e vinculado a NF-e",
+              "chNFe": "43220107857168000248550020000099751132535994",
+              "tpAmb": 1,
+              "CNPJDest": 94845674000130,
+              "cStat": 135,
+              "cOrgao": 91,
+              "xEvento": "Confirmacao da Operacao",
+              "dhRegEvento": "2022-01-03T11:21:01-03:00",
+              "Id": "ID891220009200541",
+              "tpEvento": 210200
+            }
+          }
+        }
+      ]
+    }
+  }
+]
